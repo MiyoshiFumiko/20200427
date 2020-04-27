@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSでできること</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="body">
+    <header>
+      <div class="header">
+        <div class="header-left">
+          <div class="title">JavaScriptでできること</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <img class="main-img" src="/img/JS01.png" alt="">
+      <div class="main-question">《JavaScriptというプログラミング言語の特徴とは？》</div>
+      <p class="explanation">JavaScriptとはIEやChromeなど、インターネットを見る
+        ブラウザというソフトの上で動くプログラミング言語である。画像が横に動くスライダーや、
+        マウスの動きによるアニメーションなどは、一部CSSというデザイン要素だけでできるようになってきたが、基本的にJavaScriptで作られている。
+        JavaScriptとJava、名前にJavaと付いているが別物で関連性も薄い。<br>
+        議題リストの中から『JSでできること』を15個調べたので述べていこうと思う。</p>
+    </main>
+
+    <div class="container">
+      <section>
+        <h1 class="section-title">一覧</h1><hr>
+
+        <div>
+          <ol class="section-link">
+            <li><a class="page-link" href="#text-1">ポップアップウィンドウ</a></li>
+            <li><a class="page-link" href="#text-2">Ajax</a></li>
+            <li><a class="page-link" href="#text-3">サイトの利便性アップ</a></li>
+            <li><a class="page-link" href="#text-4">サイトをブラッシュアップできる</a></li>
+            <li><a class="page-link" href="#text-5">カウントダウンタイマーが作れる</a></li>
+            <li><a class="page-link" href="#text-6">ソートや検索機能も作れる</a></li>
+            <li><a class="page-link" href="#text-7">文字を爆発させることができる</a></li>
+            <li><a class="page-link" href="#text-8">お絵かきツールが作れる</a></li>
+            <li><a class="page-link" href="#text-9">リアルタイムで動くグラフ</a></li>
+            <li><a class="page-link" href="#text-10">面白い動きをするサイトを作れる</a></li>
+            <li><a class="page-link" href="#text-11">実はブラウザ以外でも動く</a></li>
+            <li><a class="page-link" href="#text-12">Webで動くゲームが作れる</a></li>
+            <li><a class="page-link" href="#text-13">Unityでプログラミングできる</a></li>
+            <li><a class="page-link" href="#text-14">ChromeやFirefoxの拡張機能を作れる</a></li>
+            <li><a class="page-link" href="#text-15">ハイブリッドアプリという形でスマホアプリが作れる</a></li>
+          </ol><hr>
+        </div>
+      </section>
+    </div>
+
+    <article>
+      <div class="type" id="text-1">1.ポップアップウィンドウ</div>
+      <p class="article-text">注意を促す場合に用いられる。例えば、「削除したファイルは元に戻せません」などのような注意だ。</p>
+      <img class="article-img" src="/img/ポップアップ.png" alt="">
+      <p class="article-text">デザインをつけることも可能だ。その方が、わかりやすく表現できる。</p>
+      <img class="article-img" src="/img/ポップアップ2.png" alt="">
+      <p class="article-text">JavaScriptはページを移動しない状態で確認ができるほとんど唯一の手段だ。<br>
+        こういった注意警告系のポップアップは重宝され、とてもよく使われている。 </p><hr>
+      
+      <div class="type" id="text-2">2.Ajax</div>
+      <p class="article-text">Ajaxとは、ページを移動しなくてもデータを取得できたり、表示したりできる機能だと思っていただければいい。<br>
+        Ajaxを使ったページで一番驚きを持って迎えられたのが、かの有名なGoogle Mapである。</p>
+      <img class="article-img" src="/img/Ajax.jpg" alt="">
+      <p class="article-text">中の地図を自由に動かせること自体が画期的だった。Ajaxという言葉自体もGoogle Mapによって広がっている。<br>
+        今では色々なWebサービスで使われている技術だ。</p><hr>
+
+      <div class="type" id="text-3">3.サイトの利便性アップ</div>
+      <p class="article-text">サイトの利便性を上げるためにJavaScriptで色々とできることがある。<br>
+        例えば、情報量が大きくなりすぎてしまったときにタブでまとめることができる。</p>
+      <img class="article-img" src="/img/利便性.png" alt="">
+      <p class="article-text">メニューにカーソルを合わせると、詳細メニューが表示されるのは良く見る機能だろう。こちらもJavaScriptだ。</p>
+      <img class="article-img" src="/img/利便性2.png" alt=""><hr>
+
+      <div class="type" id="text-4">4.サイトをブラッシュアップできる</div>
+      <p class="article-text">JavaScriptを使うことでサイトのUIをブラッシュアップすることができる。例えば、よくあるのがスライダーだ。</p>
+      <img class="article-img" src="/img/ブラッシュアップ.png" alt="">
+      <p class="article-text">Appleのサイトでも用いられているが、メイン画像が横にスライドして切り替わっていく。<br>
+        このようにデザイン品質を上げることも、JavaScriptを用いるとできる。他にもゆっくり消えて、別の画像に変わるなど様々な表現が可能だ。
+        楽しくなって、あまり使いすぎると美しさのないサイトになるので、適度に活用しよう。</p><hr>
+      
+      <div class="type" id="text-5">5.カウントダウンタイマーが作れる</div>
+      <p class="article-text">現在時刻を取得したり、そこから計算をすることもできるため、カウントダウンタイマーを作ることができる。</p>
+      <img class="article-img" src="/img/カウントダウン.png" alt="">
+      <p class="article-text">JavaScriptらしい「できること」だ。</p><hr>
+
+      <div class="type" id="text-6">6.ソートや検索機能も作れる</div>
+      <p class="article-text">データが羅列された表を用意したとしよう。データが並んでいるなら、並び替えや検索、ページ分割機能があるとより便利だ。<br>
+        しかし、これをプログラムで組むとなると、そこそこに厄介（面倒）だ。JavaScriptを使うことで手軽に表のソートや検索機能を使うことができる。
+        ゼロから書くのは大変なので、Datatablesというライブラリを使う。とても便利で美しいライブラリだ。</p>
+      <img class="article-img" src="/img/ソート.png" alt=""><hr>
+
+      <div class="type" id="text-7">7.文字を爆発させることができる</div>
+      <p class="article-text">これはとても楽しいライブラリだ。fontBombというライブラリ（追加機能）を利用している。作った方の発想が素晴らしい。</p>
+      <img class="article-img" src="/img/fontbomb.jpeg" alt="">
+      <span><a class="media" href="http://fontbomb.ilex.ca/" target="blank">http://fontbomb.ilex.ca/</a></span><hr>
+
+      <div class="type" id="text-8">8.お絵かきツールが作れる</div>
+      <p class="article-text">canvasという新し目の機能とJavaScriptを組み合わせると図形に関して様々なことができるようになっている。<br>
+        例えば、お絵かきソフトをや図形の描画もすることができる。</p>
+      <img class="article-img" src="/img/お絵かき.png" alt=""><hr>
+
+      <div class="type" id="text-9">9.リアルタイムで動くグラフ</div>
+      <p class="article-text">株価などのチャートは常に動いているが、JavaScriptを使うとそれを表現することも可能だ。</p>
+      <img class="article-img" src="/img/チャート.png" alt="">
+      <p class="article-text">静止画を載せているが、このグラフが１秒ごとに最新版にアップされて表示させることもJavaScriptであれば可能だ。</p><hr>
+
+      <div class="type" id="text-10">10.面白い動きをするサイトを作れる</div>
+      <p class="article-text">次のように面白い動きをするサイトが作れる。いずれも楽しい動きをするので、リンク先でも見てみてほしい。</p>
+      <p><a class="media" href="http://mrdoob.com/projects/chromeexperiments/ball-pool/" target="blank">http://mrdoob.com/projects/chromeexperiments/ball-pool/</a></p>
+      <p><a class="media" href="http://www.dubfire.com/#!/home/" target="blank">http://www.dubfire.com/#!/home/</a></p>
+      <p><a class="media" href="http://www.moma.org/interactives/exhibitions/2012/centuryofthechild/" target="blank">http://www.moma.org/interactives/exhibitions/2012/centuryofthechild/</a></p><hr>
+      
+      <div class="type" id="text-11">11.実はブラウザ以外でも動く</div>
+      <p class="article-text">ブラウザで動くことばかりが強調されるJavaScriptだが、実はブラウザ以外の場所でも動かすことができる。それがNode.jsだ。<br>
+        Node.jsは他のプログラミング言語と同じような場所で動かせる。</p>
+      <img class="article-img" src="/img/node.js.png" alt="">
+      <p class="article-text">特にWebサービスを作るときに注目を浴びている。なぜなら、ブラウザで動くのもJavaScript、<br>
+        企業がもっているサーバと呼ばれるコンピュータでも動いているのはJavaScriptという状態にできるからだ。</p>
+        <ul class="media">
+          <li>同じプログラミング言語を知っていれば、両方とも書くことができる</li>
+          <li>ブラウザとサーバのプログラムの相性がよくなる（同じ言語だから当たり前だ）</li>
+        </ul>
+        <p class="media">Node.jsは注目のプログラミング言語だ。</p><hr>
+
+      <div class="type" id="text-12">12.Webで動くゲームが作れる</div>
+      <p class="article-text">Web上だけで完結できるゲームは、JavaScriptがあれば作成できてしまう。<br>
+        例えば、シューティングゲームやパズルゲームなどは初心者からでも勉強すればと作れてしまうだろう。<br>
+        enchant.jsというJavaScriptのテンプレートがあり、これを使うとより色々なゲームが手軽に作成できる。</p>
+      <img class="article-img" src="/img/ゲーム.png" alt="">
+      <span><a class="media" href="http://enchantjs.com/ja/" target="blank">http://enchantjs.com/ja/</a></span><hr>
+
+      <div class="type" id="text-13">13.Unityでプログラミングできる</div>
+      <p class="article-text">JavaScriptでゲームを作ることができるというのは、一つ前にご紹介した。<br>
+        それだけではなく、Unityというゲーム開発ソフトウェアもJavaScriptを採用している。</p>
+      <img class="article-img" src="/img/ゲーム2.png" alt="">
+      <p class="article-text">Unityを使うと本当に様々なゲームが作れる。JavaScriptでプログラムを組めるというのはありがたい。</p><hr>
+
+      <div class="type" id="text-14">14.ChromeやFirefoxの拡張機能を作れる</div>
+      <p class="article-text">ブラウザには拡張機能というものがあって、色々と機能を追加することができる。<br>
+        Webブラウザでの作業が効率化されるいいツールが揃っている。これらの多くはJavaScriptで作られている。</p>
+      <img class="article-img" src="/img/拡張.png" alt=""><hr>
+
+      <div class="type" id="text-15">15.ハイブリッドアプリという形でスマホアプリが作れる</div>
+      <p class="article-text">スマートフォンアプリは、通常iPhoneとAndroidで使うプログラミング言語が違う。<br>
+        iPhoneではSwiftという言語が使われ、AndroidではJavaが使われている。
+        しかし、JavaScriptを使うとハイブリッドアプリという形で、両方のスマホで使えるスマホアプリを作ることができる。
+        これは結構便利だ。なぜなら２種類のスマホに対応する必要がなくなり、開発する時間も半分になるからだ。</p>
+      <img class="article-img" src="/img/ハイブリッド.png" alt="">
+      <p class="article-text">ハイブリッドアプリの導入が徐々に進んできており、今後も加速度的に進んでいくだろう。</p><hr>
+    </article>
+  </div> 
+  <footer>
+    <div class="footer-left">
+      <div>footer</div>
+    </div>
+    <div class="footer-right">
+      <div>footer</div>
+    </div>
+  </footer>
+
+</body>
+</html>
